@@ -16,14 +16,11 @@ Bike.move();
 Bike.move();
 Bike.move();
 
-
-
 var Sedan = new vehicleConstructor('Sedan',4,4,100);
 Sedan.makeNoise = function(){console.log("Honk Honk")};
 Sedan.move();
 Sedan.move();
 Sedan.move();
-
 
 var Bus = new vehicleConstructor('Bus',6,0,85);
 Bus.pickUpPassenger = function(){this.passengers++};
